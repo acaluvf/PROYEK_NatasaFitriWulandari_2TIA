@@ -7,6 +7,7 @@
         <div class="row">
             <div class="col-md-10 mx-auto">
                 <h2>Daftar Status Cuti</h2>
+                <input type="text" id="searchInput" class="form-control form-control-sm" placeholder="Cari Karyawan...">
                 <a href="{{ route('user_status_cuti.create') }}" class="btn btn-primary">Tambah Pengajuan Cuti</a>
                 <table class="table">
                     <thead>

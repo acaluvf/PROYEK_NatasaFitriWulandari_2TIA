@@ -5,8 +5,9 @@
 @section('content')
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-10 mx-auto">
+            <div class="col-md-12 mx-auto">
                 <h2>Daftar Cuti Karyawan</h2>
+                <input type="text" id="searchInput" class="form-control form-control-sm" placeholder="Cari Karyawan...">
                 <table class="table">
                     <thead>
                         <tr>

@@ -5,6 +5,7 @@
         <div class="row">
             <div class="col-md-10 mx-auto">
                 <h2>Formulir Status Cuti</h2>
+
                 <form action="{{ route('status_cuti.store') }}" method="POST">
                     @csrf
                     <div class="mb-3">

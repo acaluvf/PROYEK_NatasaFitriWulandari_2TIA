@@ -40,6 +40,8 @@ Route::group(['middleware' => 'auth'], function () {
         Route::get('/user/home', 'UserController@home')->name('user.home');
     });
 });
+Route::group(['middleware' => 'web'], function () {
+});
 Route::get('/login', [AuthController::class, 'showLoginForm'])->name('login');
 Route::post('/login', [AuthController::class, 'login'])->name('login');
 

@@ -9,14 +9,8 @@
             <div class="col-md-12 mx-auto">
                 <div class="d-flex justify-content-between align-items-center mb-3">
                     <span class="text-muted">Data Karyawan</span>
-                    <form action="{{ route('karyawan.search') }}" method="GET" class="form-inline">
-                        <div class="input-group">
-                            <input type="text" name="search" class="form-control" placeholder="Cari...">
-                            <div class="input-group-append">
-                                <button type="submit" class="btn btn-outline-secondary">Cari</button>
-                            </div>
-                        </div>
-                    </form>
+                    <input type="text" id="searchInput" class="form-control form-control-sm" placeholder="Cari Karyawan...">
+                </div>
                 </div>
                 <table class="table table-bordered">
                     <thead>

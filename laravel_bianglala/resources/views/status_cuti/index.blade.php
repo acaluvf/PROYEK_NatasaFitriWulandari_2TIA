@@ -5,6 +5,7 @@
         <div class="row">
             <div class="col-md-10 mx-auto">
                 <h2>Daftar Status Cuti</h2>
+                <input type="text" id="searchInput" class="form-control form-control-sm" placeholder="Cari Karyawan...">
                 <table class="table">
                     <thead>
                         <tr>

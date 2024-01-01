@@ -3,6 +3,7 @@
 @section('content')
     <div class="container">
         <h2>Riwayat Gaji</h2>
+        <input type="text" id="searchInput" class="form-control form-control-sm" placeholder="Cari Karyawan...">
         <table class="table table-bordered">
             <thead>
                 <tr>
