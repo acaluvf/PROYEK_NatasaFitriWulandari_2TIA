@@ -23,7 +23,7 @@
                         <td>{{ ucfirst($gaji->status) }}</td>
                         <td>
                             @if ($gaji->status == 'belum_diambil')
-                                <a href="{{ route('gaji.ambil', $gaji->id) }}" class="btn btn-success">Ambil Gaji</a>
+                                <a href="{{ route('gaji.ambil', $gaji->id) }}" class="btn btn-success">Bayar</a>
                             @endif
                         </td>
                     </tr>

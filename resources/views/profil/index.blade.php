@@ -3,13 +3,13 @@
 @section('content')
     <div class="container">
         <h2>Profil Karyawan</h2>
-        <p>Nama: {{ $karyawan->nama }}</p>
+        <p>Nama: {{ $karyawan->name }}</p>
         <p>Email: {{ $karyawan->email }}</p>
         <p>Jabatan: {{ $karyawan->jabatan }}</p>
 
         <h3>Informasi Kontak</h3>
-        <p>Alamat: {{ $profil->alamat }}</p>
-        <p>Telepon: {{ $profil->telepon }}</p>
+        {{-- <p>Alamat: {{ $profil->alamat }}</p> --}}
+        {{-- <p>Telepon: {{ $profil->telepon }}</p> --}}
 
         <h3>Evaluasi Kinerja</h3>
         <!-- Tampilkan evaluasi kinerja jika ada -->

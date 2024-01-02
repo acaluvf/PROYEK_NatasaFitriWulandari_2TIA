@@ -11,8 +11,8 @@ class ProfilKaryawanController extends Controller
     public function index()
     {
         $karyawan = Auth::user();
-
-        return view('profil.index', compact('karyawan', 'profil'));
+        dd($karyawan);
+        // return view('profil.index', compact('karyawan'));
     }
 
     public function edit()

@@ -35,7 +35,7 @@
                 <span class="hide-menu">Home</span>
               </li>
               <li class="sidebar-item">
-                <a class="sidebar-link" href="./template/dashboard" aria-expanded="false">
+                <a class="sidebar-link" href="/template/dashboard" aria-expanded="false">
                   <span>
                     <i class="ti ti-layout-dashboard"></i>
                   </span>
@@ -47,7 +47,7 @@
                 <span class="hide-menu">KARYAWAN</span>
               </li>
               <li class="sidebar-item">
-                <a class="sidebar-link" href="./karyawan/create" aria-expanded="false">
+                <a class="sidebar-link" href="/karyawan/create" aria-expanded="false">
                   <span>
                     <i class="ti ti-article"></i>
                   </span>
@@ -55,7 +55,7 @@
                 </a>
               </li>
               <li class="sidebar-item">
-                <a class="sidebar-link" href="./karyawan/daftar" aria-expanded="false">
+                <a class="sidebar-link" href="/karyawan/daftar" aria-expanded="false">
                   <span>
                     <i class="ti ti-alert-circle"></i>
                   </span>
@@ -64,30 +64,38 @@
               </li>
               <li class="nav-small-cap">
                   <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
-                  <span class="hide-menu">PENGGAJIAN</span>
+                  <span class="hide-menu">JADWAL GAJI</span>
                 </li>
               <li class="sidebar-item">
-                <a class="sidebar-link" href="./gaji" aria-expanded="false">
+                <a class="sidebar-link" href="/gaji/tambah" aria-expanded="false">
                   <span>
                     <i class="ti ti-cards"></i>
                   </span>
-                  <span class="hide-menu">Informasi Gaji</span>
+                  <span class="hide-menu">Tambah Gaji</span>
                 </a>
               </li>
               <li class="sidebar-item">
-                <a class="sidebar-link" href="./riwayat" aria-expanded="false">
+                <a class="sidebar-link" href="/gaji/riwayat" aria-expanded="false">
                   <span>
                     <i class="ti ti-file-description"></i>
                   </span>
                   <span class="hide-menu">Riwayat Penggajian</span>
                 </a>
               </li>
+              <li class="sidebar-item">
+                  <a class="sidebar-link" href="/gaji/informasi" aria-expanded="false">
+                    <span>
+                      <i class="ti ti-file-description"></i>
+                    </span>
+                    <span class="hide-menu">Informasi Gaji</span>
+                  </a>
+                </li>
               <li class="nav-small-cap">
                   <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
                   <span class="hide-menu">CUTI</span>
                 </li>
               <li class="sidebar-item">
-                <a class="sidebar-link" href="./status_cuti/create" aria-expanded="false">
+                <a class="sidebar-link" href="/user-status-cuti" aria-expanded="false">
                   <span>
                     <i class="ti ti-typography"></i>
                   </span>
@@ -95,7 +103,7 @@
                 </a>
               </li>
               <li class="sidebar-item">
-                  <a class="sidebar-link" href="./daftar_cuti/index" aria-expanded="false">
+                  <a class="sidebar-link" href="/admin-daftar-cuti" aria-expanded="false">
                     <span>
                       <i class="ti ti-typography"></i>
                     </span>
@@ -107,7 +115,7 @@
                   <span class="hide-menu">Evaluasi Kinerja</span>
                 </li>
               <li class="sidebar-item">
-                <a class="sidebar-link" href="./ui-typography.html" aria-expanded="false">
+                <a class="sidebar-link" href="/evaluasi/create" aria-expanded="false">
                   <span>
                     <i class="ti ti-typography"></i>
                   </span>
@@ -115,7 +123,7 @@
                 </a>
               </li>
               <li class="sidebar-item">
-                  <a class="sidebar-link" href="./ui-typography.html" aria-expanded="false">
+                  <a class="sidebar-link" href="/evaluasi" aria-expanded="false">
                     <span>
                       <i class="ti ti-typography"></i>
                     </span>
@@ -147,8 +155,7 @@
                     <span>
                       <i class="ti ti-login"></i>
                     </span>
-                        <button type="submit">Logout</button>
-                    </form>
+                    <span class="hide-menu">Logout</span>
                   </a>
                 </li>
           </nav>
